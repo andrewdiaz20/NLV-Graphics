@@ -1,0 +1,79 @@
+/* NAVBAR CSS */
+.NavBAR{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.NavLINK{
+    padding-top: 3%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4%;
+}
+nav{
+    border: 1px solid black;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    margin: 0;
+    padding:0;
+}
+.Navigation{
+    z-index: 3;
+    width: 100%;
+}
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+a{
+    color: gray;
+}
+/* NAVBAR CSS */
+
+/* HOMEPAGE */
+.homePICTURE{
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+body{
+    background-color: rgb(162 156 156);
+    width: auto;
+}
+.liveInColor{
+    border: 1px solid black;
+    top: 0;
+    padding-top: 32vh;
+    padding-bottom: 33vh;
+    margin-top: 70px;
+    background-color: black;
+}
+.aboutUS{
+    border: 1px solid white;
+    background-color: aliceblue;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: x-large;
+}
+.aboutInfo{
+    display: flex;
+    padding-right: 50px;
+}
+.aboutUSP{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 135px;
+}
+/* HOMEPAGE */
