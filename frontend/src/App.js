@@ -2,7 +2,8 @@ import './App.css';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import NavBar from './Components/Navigation';
-import stickers from './Components/stickers';
+import Stickers from './Components/Stickers';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route>
           <Route path = '/'element={<Home/>}/>
-          <Route path = '/stickers'element={<stickers/>}/>
+          <Route path = '/Stickers'element={<Stickers/>}/>
         </Route>
       </Routes>
     </Router>

@@ -1,4 +1,5 @@
 import NavBar from './Navigation';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function Home() {
       <section>
 
       </section>
+      <Footer/>
     </body>
   );
 }

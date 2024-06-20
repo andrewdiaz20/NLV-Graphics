@@ -9,7 +9,7 @@ function NavBar() {
                         <a href="/">Home</a>
                     </li>
                     <li className="NavLINK">
-                        <a href="/stickers">Stickers & Labels</a>
+                        <a href="/Stickers">Stickers & Labels</a>
                     </li>
                     <li className="NavLINK">
                         <a href="/Drinkware">Drinkware</a>
