@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import NavBar from './Components/Navigation';
-import Stickers_Labels from './Components/stickers_lab';
+import stickers from './Components/stickers';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route>
           <Route path = '/'element={<Home/>}/>
-          <Route path = '/Stickers_Labels'element={<Stickers_Labels/>}/>
+          <Route path = '/stickers'element={<stickers/>}/>
         </Route>
       </Routes>
     </Router>

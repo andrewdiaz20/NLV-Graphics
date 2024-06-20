@@ -4,14 +4,14 @@ body{
     height: 1000px; 
 }
 /* NAVBAR CSS */
-#header{
+/* #header{
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 #header-wrap{
     position: relative;
-}
+} */
 .NavBAR{
     list-style-type: none;
     text-decoration: none;
@@ -72,10 +72,16 @@ body{
 .aboutUS{
     border: 1px solid white;
     background-color: aliceblue;
-    font-size: x-large;
+    font-size:xx-large;
     height: 100vh;
     display: grid;
     grid: auto 1fr auto/ 100px 1fr 100px;
+    padding: 0;
+    margin: 0;
+}
+div p{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .headers,
@@ -83,17 +89,20 @@ body{
 .leftSideBar,
 .aboutInfo,
 .rightSideBar{
-    padding: 10px;
+    padding: 20px;
     display: flex;
 }
 .headers { 
     grid-column: 1 / 4; 
     background-color: red; 
-    padding-left: 20vh;
+    padding-left: 50vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
 } 
 .leftSideBar { 
     grid-column: 1 / 2; 
-    background-color: green; 
+    background-color: green;
 }
 .rightSideBar{
     grid-column: 3 / 4;
@@ -103,6 +112,13 @@ body{
     grid-column: 1 / 4;
     background-color: blue;
     color: purple;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 200px;
+}
+.aboutUsPic{
+    width: 500px;
+    padding-right: 60px;
 }
 
 /* about us section */
