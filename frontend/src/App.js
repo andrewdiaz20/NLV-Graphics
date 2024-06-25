@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import NavBar from './Components/Navigation';
 import Stickers from './Components/Stickers';
 import Footer from './Components/Footer';
+import './stickers.css';
+import Drinkware from './Components/Drinkware';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Route>
           <Route path = '/'element={<Home/>}/>
           <Route path = '/Stickers'element={<Stickers/>}/>
+          <Route path = '/Drinkware' element={<Drinkware/>}/>
         </Route>
       </Routes>
     </Router>

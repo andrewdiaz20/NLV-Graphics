@@ -7,10 +7,10 @@ import Card from 'react-bootstrap/Card';
 
 function Stickers(){
     return (
-        <body>
+        <body className="stickersBody">
             <NavBar/>
-            <main>
-                
+            <main className="headerStickers">
+                <h1>Stickers & Labels</h1>
             </main>
             <Footer/>
         </body>

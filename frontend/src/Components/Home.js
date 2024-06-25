@@ -19,7 +19,7 @@ function Home() {
           <h2>About Us</h2>
         </header>
         <div className='leftSideBar'>
-          i am left sidebar
+          {/* i am left sidebar */}
         </div>
         <div className='aboutInfo'>
           <p className='aboutUSP'>
@@ -27,17 +27,19 @@ function Home() {
           <img className='aboutUsPic'src='OIP.jpg' alt='Motion Graphics' />
         </div>
         <div className='rightSideBar'>
-          i am right side bar
+          {/* i am right side bar */}
         </div>
         <footer className='footers'>
-          i am the footer
+          {/* i am the footer */}
         </footer>
       </section>
 
       {/* End of About us section */}
 
       <section>
-
+        <h2>Who We Are</h2>
+        <p>This is your About section. This space is a great opportunity to give a full background on who you are, what you do and what your site has to offer. Your users are genuinely interested in learning more about you, so don’t be afraid to share personal anecdotes to create a more friendly quality.</p>
+        <p>Double click on the text box to start editing your content and make sure to add all the relevant details you want site visitors to know. If you’re a business, talk about how you started and share your professional journey. Explain your core values, your commitment to customers and how you stand out from the crowd. Add a photo, gallery or video for even more engagement.</p>
       </section>
       <Footer/>
     </body>
