@@ -9,12 +9,7 @@ function Contact() {
             {/* <NavBar/> */}
             <main>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some Quick Example Text to Build on the card Title and amke up the bulk of the cards content.
-                        </Card.Text>
-                    </Card.Body>
+
                 </Card>
                 <Card>
                     <Card.Title>Information</Card.Title>
@@ -27,12 +22,16 @@ function Contact() {
                             </Form.Text>
                         </Form.Group>
 
-                        <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
+                        <Form.Group className="mb-3" controlId="formBasicName">
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control type="name" placeholder="Name" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicPhoneNum">
+                            <Form.Label>PhoneNumber</Form.Label>
+                            <Form.Control type="phoneNumber" placeholder="Phone Number" />
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit
