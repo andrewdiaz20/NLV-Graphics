@@ -6,6 +6,7 @@ import Stickers from './Components/Stickers';
 import Footer from './Components/Footer';
 import './stickers.css';
 import Drinkware from './Components/Drinkware';
+import './script'
 
 function App() {
   return (

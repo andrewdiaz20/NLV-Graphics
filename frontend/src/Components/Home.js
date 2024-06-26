@@ -6,10 +6,10 @@ function Home() {
     <body>
       <NavBar />
       <main className='homePICTURE'>
-        <img src='maxresdefault.jpg' alt='8 best AI TOOLS for designers' />
+        <img src='Main Banner 1000x700.webp' alt='NLV-Banner' />
       </main>
       <section className='liveInColor'>
-        <img />
+        <img className='liveincolorPicture'src='Life_in_full_color.webp' alt='Live life in full color'/>
       </section>
 
       {/* About us section */}
