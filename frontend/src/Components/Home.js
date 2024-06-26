@@ -24,7 +24,7 @@ function Home() {
         <div className='aboutInfo'>
           <p className='aboutUSP'>
             NLV Graphics is a printing and graphics shop that provides high-quality printing services for all your needs. We specialize in custom apparel printing, including T-shirts, sweatshirts, hats, and more. We also offer laser engraving services for insulated drinkware and glassware, custom die-cut stickers, posters, signs, and large-format printing. Our team of experts can put your logo on almost anything. In addition to printing services, we provide graphic design services and laser engraving services to make your product stand out. Contact us today to learn more about our services and how we can help you with your printing needs.</p>
-          <img className='aboutUsPic'src='OIP.jpg' alt='Motion Graphics' />
+          <img className='aboutUsPic'src='LTM73XX Mockup.webp' alt='Motion Graphics' />
         </div>
         <div className='rightSideBar'>
           {/* i am right side bar */}
