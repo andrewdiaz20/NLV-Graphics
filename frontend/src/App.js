@@ -2,11 +2,11 @@ import './App.css';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import NavBar from './Components/Navigation';
-import Stickers from './Components/Stickers';
+import Stickers from './Components/stickers';
 import Footer from './Components/Footer';
 import './stickers.css';
 import Drinkware from './Components/Drinkware';
-
+import Contact from './Components/Contact';
 function App() {
   return (
     <Router>
@@ -15,6 +15,7 @@ function App() {
           <Route path = '/'element={<Home/>}/>
           <Route path = '/Stickers'element={<Stickers/>}/>
           <Route path = '/Drinkware' element={<Drinkware/>}/>
+          <Route path = '/Contact' element={<Contact/>}/>
         </Route>
       </Routes>
     </Router>
