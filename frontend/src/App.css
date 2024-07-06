@@ -207,3 +207,17 @@ div p{
 .FormBody{
     background-color: grey;
 }
+.contactPage{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 85px; 
+}
+
+.title{
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+
+}
