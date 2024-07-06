@@ -76,4 +76,19 @@ body{
     padding-right: 70px;
     padding-top: 135px;
 }
+
+.contactPage{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 85px; 
+}
+
+.title{
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+
+}
 /* HOMEPAGE */
