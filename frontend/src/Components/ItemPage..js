@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-function Contact() {
+function Item() {
     return (
         <body>
             <NavBar/>
@@ -64,4 +64,4 @@ function Contact() {
     )
 };
 
-export default Contact;
+export default Item;
