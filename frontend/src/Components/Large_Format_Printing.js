@@ -3,9 +3,9 @@ import Footer from './Footer';
 
 function Large_Format_Printing(){
     return(
-        <body>
+        <body className='largeformatprintingBody'>
             <NavBar/>
-            <main>
+            <main className='headerLargeformatprinting'>
                 <h1>Large Format Printing</h1>
             </main>
             <Footer/>

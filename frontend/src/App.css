@@ -189,7 +189,6 @@ div p{
     background-color: black;
 
 }
-
 .headerStickers{
     color: white;
     margin-top: 20px;
@@ -211,3 +210,65 @@ div p{
     justify-content: center;
 }
 /* Drinkware */
+
+/* Banners */
+.bannersBody{
+    background-color: black;
+}
+.headerBanners{
+    color: white;
+    margin-top: 20px;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+/* Banners */
+
+/* Large Format Printing */
+.largeformatprintingBody{
+    background-color: black;
+}
+.headerLargeformatprinting{
+    color: white;
+    margin-top: 20px;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+/* Large Format Printing */
+
+/* items */
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: beige;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    height: 25vh;
+    outline-color: blue;
+}
+.imageItem{
+    width: 20vh;
+    height: 20vh;
+}
+/* items */
+.child{
+    position: absolute;
+    top: 0;
+}
+.child-1{
+    left: 0;
+}
+.child-2{
+    left: 0;
+}
+.child-3{
+    left: 150px;
+}
+.parent{
+    position: relative;
+}

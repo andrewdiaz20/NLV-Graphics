@@ -21,7 +21,7 @@ function NavBar() {
                         <a href="/Banners">Banners</a>
                     </li>
                     <li className="NavLINK">
-                        <a href="/Large.Format.Printing">Large Format Printing</a>
+                        <a href="/Large_Format_Printing">Large Format Printing</a>
                     </li>
                     <li className="NavLINK">
                         <a href="/Contact">Contact</a>
