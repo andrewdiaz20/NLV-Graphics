@@ -103,6 +103,8 @@ div p{
     padding-top: 0px;
     padding-bottom: 0;
     margin: 0;
+    text-decoration: overline;
+    text-decoration: underline;
 } 
 .leftSideBar { 
     grid-column: 1 / 2; 
