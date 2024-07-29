@@ -136,7 +136,11 @@ div p{
     justify-content: center;
     align-items: center;
     background-color:rgb(26 25 25);
-    margin-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
     padding-right: 15vh;
     color: rgb(162 156 156);
 }
@@ -245,10 +249,12 @@ div p{
     font-family: arial;
     background-color: beige;
     display: flex;
+    flex-direction: column;
     padding-top: 10px;
     padding-left: 20vh;
     padding-right: 20vh;
-    height: 25vh;
+    height: 50vh;
+    width: 2vh;
     outline-color: blue;
 }
 .imageItem{
@@ -256,7 +262,7 @@ div p{
     height: 20vh;
 }
 /* items */
-.child{
+/* .child{
     position: absolute;
     top: 0;
 }
@@ -271,4 +277,4 @@ div p{
 }
 .parent{
     position: relative;
-}
+} */
