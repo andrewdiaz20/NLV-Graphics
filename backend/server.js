@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 require('dotenv').config({ path: '.env' });
+const cors = require('cors');
+
 
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
@@ -15,7 +17,14 @@ const sticker = (req, res, next) => {
     next();
 };
 
+app.use(cors());
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
 app.use('/sticker', sticker);
+app.get('/sticker', (req, res) => {
+    res.json({ message: 'Hello from the backend!' });
+});
+
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
