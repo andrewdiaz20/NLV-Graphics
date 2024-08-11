@@ -26,6 +26,9 @@ function NavBar() {
                     <li className="NavLINK">
                         <a href="/Contact">Contact</a>
                     </li>
+                    <li className="NavLINK">
+                        <a href="/Login_Signup">Login/SignUp</a>
+                    </li>
                 </ul>
             </nav>
         </div>
