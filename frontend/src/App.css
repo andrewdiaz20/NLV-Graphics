@@ -6,7 +6,7 @@ body {
 }
 /* NAVBAR CSS */
 .nlvGraphicsLogo {
-  padding-right: 30vh;
+  padding-left: 5vw;
   width: 220px;
 }
 .NavBAR {
@@ -14,14 +14,15 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: center;
-  padding-left: 10px;
-  padding-right: 50vh;
+  align-items: space-around;
+  padding-left: 50vw;
+  padding-right: 50vw;
 }
 .NavLINK {
-  padding-top: 3%;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1vw;
 }
 nav {
   border: 1px solid rgb(26 25 25);
@@ -65,9 +66,11 @@ body {
   padding-bottom: 20vh;
   margin-top: 70px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .liveincolorPicture {
-  padding-left: 47vh;
   width: 95vh;
   height: 50vh;
 }
@@ -77,14 +80,14 @@ body {
   border: 1px solid rgb(238, 230, 230);
   background-color: rgb(238, 230, 230);
   font-size: x-large;
-  height: 78vh;
+  height: 70vh;
   display: grid;
   grid: auto 1fr auto/ 100px 1fr 100px;
   padding: 0;
   margin: 0;
   position: relative;
 }
-div p {
+.aboutUSP {
   /* position fix is just temporary while I figure out how to fit it in a grid */
   position: absolute;
   padding-left: 4vw;
@@ -140,9 +143,9 @@ div p {
   justify-content: center;
   align-items: center;
   background-color: rgb(26 25 25);
-  position: fixed;
+  position: static;
   left: 0;
-  bottom: 0;
+  bottom: 5vh;
   text-align: center;
   width: 100%;
   padding-right: 15vh;
