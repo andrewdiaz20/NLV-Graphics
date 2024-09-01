@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import NavBar from './Components/Navigation';
-import Stickers from './Components/Stickers';
+import Stickers from './Components/stickers';
 import Footer from './Components/Footer';
 import './stickers.css';
 import Drinkware from './Components/Drinkware';

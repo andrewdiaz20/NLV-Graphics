@@ -1,265 +1,266 @@
-body{
-    padding: 0;
-    margin: 0;
-    height: 1000px;
-    font-family: Arial, Helvetica, sans-serif;;
+body {
+  padding: 0;
+  margin: 0;
+  height: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* NAVBAR CSS */
-.nlvGraphicsLogo{
-    padding-right: 30vh;
-    width: 220px;
+.nlvGraphicsLogo {
+  padding-right: 30vh;
+  width: 220px;
 }
-.NavBAR{
-    list-style-type: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 50vh;
+.NavBAR {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 50vh;
 }
-.NavLINK{
-    padding-top: 3%;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 4%;
+.NavLINK {
+  padding-top: 3%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4%;
 }
-nav{
-    border: 1px solid rgb(26 25 25);
-    background-color: rgb(26 25 25);
-    margin-top: auto;
-    margin-bottom: auto;
-    position: fixed;
-    z-index: 100;
-    top:0;
-    margin: 0;
-    padding:0;
+nav {
+  border: 1px solid rgb(26 25 25);
+  background-color: rgb(26 25 25);
+  margin-top: auto;
+  margin-bottom: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  margin: 0;
+  padding: 0;
 }
-.Navigation{
-    width: 100%;
+.Navigation {
+  width: 100%;
 }
 a:link {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
-a{
-    color: gray;
+a {
+  color: gray;
 }
 /* NAVBAR CSS */
 
 /* HOMEPAGE */
-.homePICTURE{
-    top: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
+.homePICTURE {
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
-body{
-    background-color: rgb(162 156 156);
-    width: auto;
+body {
+  background-color: rgb(162 156 156);
+  width: auto;
 }
-.liveInColor{
-    border: 1px solid black;
-    top: 0;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    margin-top: 70px;
-    background-color: black;
+.liveInColor {
+  border: 1px solid black;
+  top: 0;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  margin-top: 70px;
+  background-color: black;
 }
-.liveincolorPicture{
-    padding-left: 47vh;
-    width: 95vh;
-    height: 50vh;
+.liveincolorPicture {
+  padding-left: 47vh;
+  width: 95vh;
+  height: 50vh;
 }
 
 /* about us section */
-.aboutUS{
-    border: 1px solid rgb(238,230,230);
-    background-color: rgb(238,230,230);
-    font-size:x-large;
-    height: 78vh;
-    display: grid;
-    grid: auto 1fr auto/ 100px 1fr 100px;
-    padding: 0;
-    margin: 0;
+.aboutUS {
+  border: 1px solid rgb(238, 230, 230);
+  background-color: rgb(238, 230, 230);
+  font-size: x-large;
+  height: 78vh;
+  display: grid;
+  grid: auto 1fr auto/ 100px 1fr 100px;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
-div p{
-    padding-left: 260px;
-    padding-right: 100px;
+div p {
+  /* position fix is just temporary while I figure out how to fit it in a grid */
+  position: absolute;
+  padding-left: 4vw;
+  padding-right: 2vw;
 }
 
 .headers,
 .footers,
 .leftSideBar,
 .aboutInfo,
-.rightSideBar{
-    padding: 20px;
-    display: flex;
+.rightSideBar {
+  padding: 20px;
+  display: flex;
 }
-.headers { 
-    grid-column: 1 / 4; 
-    /* background-color: red;  */
-    padding-left: 40vh;
-    padding-top: 0px;
-    padding-bottom: 0;
-    margin: 0;
-    text-decoration: overline;
-    text-decoration: underline;
-} 
-.leftSideBar { 
-    grid-column: 1 / 2; 
-    /* background-color: green; */
+.headers {
+  grid-column: 1 / 4;
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin: 0;
+  text-decoration: overline;
+  text-decoration: underline;
 }
-.rightSideBar{
-    grid-column: 3 / 4;
-    /* background-color: greenyellow; */
+/* left and right sidebars throw off sizing. will resize later */
+.leftSideBar {
+  display: none;
+  grid-column: 1 / 2;
+  /* background-color: green; */
 }
-.footers{
-    grid-column: 1 / 4;
-    /* background-color: blue; */
-    color: purple;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 200px;
+.rightSideBar {
+  display: none;
+  grid-column: 3 / 4;
+  /* background-color: greenyellow; */
 }
-.aboutUsPic{
-    width: 500px;
-    padding-right: 214px;
+.footers {
+  grid-column: 1 / 4;
+  /* background-color: blue; */
+  color: purple;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 200px;
+}
+.aboutUsPic {
+  /* temp no display while I fix the paragraph */
+  display: none;
 }
 
 /* about us section */
 
 /* Footer page */
-.footerPage{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(26 25 25);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    padding-right: 15vh;
-    color: rgb(162 156 156);
+.footerPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26 25 25);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-right: 15vh;
+  color: rgb(162 156 156);
 }
 /* Footer page */
-.whoweAre{
-    height: 30vh;
-    display: grid;
-    grid: auto 1fr auto/ 100px 1fr 100px;
-    padding: 0;
-    margin: 0;
-    color: white;
-    background-color: rgb(19 19 19);
+.whoweAre {
+  height: 30vh;
+  display: grid;
+  grid: auto 1fr auto/ 100px 1fr 100px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: rgb(19 19 19);
 }
 .whoweareHeaders,
 .whoareweLeft,
 .whoareweText,
-.whoareweRight{
-    padding: 20px;
-    display: flex;
+.whoareweRight {
+  padding: 20px;
+  display: flex;
 }
-.whoareweHeaders{ 
-    grid-column: 1 / 4; 
-    /* background-color: red;  */
-    padding-top: 0px;
-    padding-bottom: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-} 
-.whoareweLeft{ 
-    grid-column: 1 / 2; 
-    /* background-color: green; */
+.whoareweHeaders {
+  grid-column: 1 / 4;
+  /* background-color: red;  */
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.whoareweRight{
-    grid-column: 3 / 4;
-    /* background-color: greenyellow; */
+.whoareweLeft {
+  grid-column: 1 / 2;
+  /* background-color: green; */
 }
-.whoareweText{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 56px;
-
+.whoareweRight {
+  grid-column: 3 / 4;
+  /* background-color: greenyellow; */
+}
+.whoareweText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 56px;
 }
 /* HOMEPAGE */
 
-
 /* Stickers and Labels */
-.stickersBody{
-    background-color: black;
-
+.stickersBody {
+  background-color: black;
 }
-.headerStickers{
-    color: white;
-    margin-top: 20px;
-    padding-top: 20vh;
-    display: flex;
-    justify-content: center;
+.headerStickers {
+  color: white;
+  margin-top: 20px;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
 /* Stickers and labels */
 
 /* Drinkware */
-.drinkwareBody{
-    background-color: black;
+.drinkwareBody {
+  background-color: black;
 }
-.headerDrinkware{
-    color: white;
-    margin-top: 20px;
-    padding-top: 20vh;
-    display: flex;
-    justify-content: center;
+.headerDrinkware {
+  color: white;
+  margin-top: 20px;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
 /* Drinkware */
 
 /* Banners */
-.bannersBody{
-    background-color: black;
+.bannersBody {
+  background-color: black;
 }
-.headerBanners{
-    color: white;
-    margin-top: 20px;
-    padding-top: 20vh;
-    display: flex;
-    justify-content: center;
+.headerBanners {
+  color: white;
+  margin-top: 20px;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
 /* Banners */
 
 /* Large Format Printing */
-.largeformatprintingBody{
-    background-color: black;
+.largeformatprintingBody {
+  background-color: black;
 }
-.headerLargeformatprinting{
-    color: white;
-    margin-top: 20px;
-    padding-top: 20vh;
-    display: flex;
-    justify-content: center;
+.headerLargeformatprinting {
+  color: white;
+  margin-top: 20px;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
 /* Large Format Printing */
 
 /* items */
-.card{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-left: 20vh;
-    padding-right: 20vh;
-    height: 50vh;
-    width: 2vh;
-    outline-color: blue;
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  height: 50vh;
+  width: 2vh;
+  outline-color: blue;
 }
-.imageItem{
-    width: 20vh;
-    height: 20vh;
+.imageItem {
+  width: 20vh;
+  height: 20vh;
 }
 /* items */
 /* .child{
