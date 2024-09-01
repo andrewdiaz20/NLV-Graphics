@@ -200,6 +200,11 @@ div p{
     display: flex;
     justify-content: center;
 }
+.stickersCss{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
 /* Stickers and labels */
 
 /* Drinkware */
