@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from "react"
+import { useParams, useNavigate, Link} from "react-router-dom"
 import Navbar from "./Navigation";
 import Footer from "./Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
-import { useNavigate, useParams } from 'react-router-dom';
+
 
 function Stickers() {
   const [sticker, setSticker] = useState([]);
@@ -33,7 +34,7 @@ function Stickers() {
           <Card className='stickersCss' key={sticker.id} sx={{ maxWidth: 800 }}>
             <div style={{ position: 'relative' }}>
               <p>{sticker.name}</p>
-            </div>
+    </div>
           </Card>
         ))}
       </main>

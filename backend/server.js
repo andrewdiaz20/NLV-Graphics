@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('dotenv').config({ path: '.env' });
 const cors = require('cors');
 const stickers = require('./models/stickers');
-const { default: Stickers } = require('../frontend/src/Components/stickers');
+// const { default: Stickers } = require('../frontend/src/Components/stickers');
 
 
 mongoose.connect(process.env.MONGO_URI, {
@@ -22,7 +22,7 @@ const sticker = (req, res, next) => {
 app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
-app.use('/sticker', sticker);
+app.use('/stickers', stickers);
 // app.get('/sticker', async (req, res) => {
 //     try{
 //     const sticker = await sticker.find();
