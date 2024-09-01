@@ -3,8 +3,8 @@ const app = express();
 const mongoose = require('mongoose');
 require('dotenv').config({ path: '.env' });
 const cors = require('cors');
-const stickers = require('./models/stickers');
-const { default: Stickers } = require('../frontend/src/Components/stickers');
+const sticker = require('./models/stickers');
+// const { default: stickers } = require('../frontend/src/Components/stickers');
 
 
 mongoose.connect(process.env.MONGO_URI, {
@@ -23,14 +23,14 @@ app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use('/sticker', sticker);
-// app.get('/sticker', async (req, res) => {
-//     try{
-//     const sticker = await sticker.find();
-//     res.json({sticker});
-//     }catch(err){
-//         res.status(500).json({ message: err.message })
-//     }
-// });
+app.get('/sticker', async (req, res) => {
+    try{
+    const sticker = await sticker.find();
+    res.json({sticker});
+    }catch(err){
+        res.status(500).json({ message: err.message })
+    }
+});
 
 
 const PORT = process.env.PORT || 8080;
