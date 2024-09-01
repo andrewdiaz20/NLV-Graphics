@@ -3,7 +3,6 @@ const { Schema } = mongoose
 
 const stickerSchema = new mongoose.Schema({
     name: String,
-    description: String,
     price: Number
 });
 
